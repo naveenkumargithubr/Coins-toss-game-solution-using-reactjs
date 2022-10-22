@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(
+    to top,
+    rgb(199, 156, 76),
+    rgb(112, 100, 78)
+  );
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-card-container {
+  background-color: #ffffff;
+  height: 50vh;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.heading {
+  color: orange;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.toss-img {
+  height: 90px;
+  width: 90px;
+}
+
+.toss-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counting-contianer {
+  display: flex;
+}
+.space {
+  padding-right: 15px;
+}
+
+.button {
+  background-color: rgb(75, 68, 56);
+  color: rgba(233, 233, 233, 0.589);
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  width: 90px;
+}
